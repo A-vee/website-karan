@@ -1,0 +1,100 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+nav
+{background-color: rgb(0, 0, 0);
+    height: 10vh;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: aliceblue;
+}
+nav-text
+{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+    color: aliceblue;
+    
+    height: 100%;
+}
+nav-text a
+{    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+   
+    font-family: "head";
+    font-stretch: 700%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+nav-text ul li a
+{
+    color: aliceblue;
+}
+nav ul
+{
+    height: 98%;
+    width: 90%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap:1rem;
+    color: rgb(255, 255, 255);
+    align-items: center;
+   
+    list-style: none;
+}
+li
+{
+    padding: 0.5rem;
+   
+}
+nav ul li a
+{
+  
+    font-size: 1.2rem;
+   
+     color: rgb(255, 255, 255);
+     font-weight: 100;
+    text-decoration: none;
+}
+
+
+.page1
+{
+    height:90vh;
+    display: flex;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+
+.page1 ul
+{
+    gap: 1rem;
+}
+ 
+
+.page1 ul li
+{
+    list-style: none;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: black;
+}
+.page1 li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+    font-size: 1.1rem;
+  
+}
+
